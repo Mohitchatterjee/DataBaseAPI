@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DATABASE API</title>
+</head>
+<body style="background-color:powderblue;"></body>
+<center><h1>MONGO DATABASE</h1></center>
+<div class="form">
+        <form action="/mongoTemplates/createMongoDB" method="POST">
+            <center>
+                <br><br><br><br><br><br><br><br>
+            <label>Enter Database Name</label>
+            <input type="text" name="dbName" id="dbName" style="margin-left:90px;"><br><br>
+                <label>Enter Collection Name</label>
+            <input type="text" name="collection" id="collection" style="margin-left:90px;"><br><br>
+                <label>Record(Should Be In JSON Format):</label>
+            <textarea class="scrollabletextbox" name="Record"></textarea><br><br>
+            <input type="submit" value="Submit">
+            </center>
+        </form>
+    </div>
+</html>

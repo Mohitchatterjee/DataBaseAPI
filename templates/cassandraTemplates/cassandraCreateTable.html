@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DATABASE API</title>
+</head>
+<body style="background-color:powderblue;"></body>
+<center><h1>CASSANDRA DATABASE</h1></center>
+<div class="form">
+        <form action="/cassandraTemplates/cassandraCreateTable" method="POST">
+            <center>
+                <br><br><br><br><br><br><br><br>
+            <label>Enter Database Which You Want To Use :</label>
+            <input type="text" name="dbName" id="dbName" style="margin-left:120px;"><br><br>
+                <label>Enter Columns With Proper Pattern :<br>(Eg. Table_Name(ColumnName1 DataType {primary key},ColumnName2 DataType))</label>
+            <textarea class="scrollabletextbox" name="column" ></textarea><br><br>
+
+            <input type="submit" value="Submit">
+            </center>
+        </form>
+    </div>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DATABASE API</title>
+</head>
+<body style="background-color:powderblue;"></body>
+<center><h1>CASSANDRA DATABASE</h1></center>
+<div class="form">
+        <form action="/cassandraTemplates/insertDataCassandra" method="POST">
+            <center>
+                <br><br><br><br><br><br><br><br>
+                <label>Enter Database Name:</label>
+            <input type="text" name="dbName" id="dbName" style="margin-left:90px;"><br><br>
+                <label>Enter Table Name:</label>
+            <input type="text" name="table" id="table" style="margin-left:90px;"><br><br>
+                <label>Column Name(Should Be In comma seperated):</label>
+            <textarea class="scrollabletextbox" name="column"></textarea><br><br>
+                <label>Values(Should Be In comma seperated):</label>
+            <textarea class="scrollabletextbox" name="value"></textarea><br><br>
+                <label>NOTE:- Number of Column Name and Number of Value should be same</label><br><br>
+            <input type="submit" value="Submit">
+            </center>
+        </form>
+    </div>
+</html>
